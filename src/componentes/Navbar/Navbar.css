@@ -1,0 +1,45 @@
+.desconto {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background-color: #181818;
+}
+
+.desconto p {
+    text-align: center;
+    color: #F9F9F9
+}
+
+.linkl {
+    position: absolute;
+    color: #F9F9F9;
+    left: 90%;
+    top: 20px;
+    text-decoration: none;
+}
+
+.nome {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 60px;
+    background-color: #F9F9F9;
+}
+
+.nome h1{
+    text-align: center;
+    font-weight: 600;
+    line-height: 29.26px;
+}
+
+@media screen and (max-width: 480px){
+    .desconto, .nome {
+        width: 100%;
+    }
+    .desconto p {
+        text-align: center;
+    }
+}

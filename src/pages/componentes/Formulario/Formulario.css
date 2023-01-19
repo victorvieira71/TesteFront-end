@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+
+.formulario {
+    position: absolute;
+    left: 60%;
+    top: 250px
+}
+
+.formulario h1 {
+    font-family: 'Merriweather', serif;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.formulario p {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 0;
+}
+
+.formulario form {
+    font-family: 'Lato', sans-serif;
+}
+
+.input-padrao {
+	display: block;
+	margin: 11px 0 11px;
+	padding: 10px 25px;
+	width: 100%;
+    border: 2px solid #E8E8E8;
+    border-radius: 5px;
+}
+
+.troca-senha {
+    position: absolute;
+    width: 100%;
+    left: 65%;
+    right: 12.71%;
+    top: 89%;
+    font-size: 14px;
+    color: #2B6CB0;
+    cursor: pointer;
+}
+
+.botao {
+    background-color: #04C45C;
+    width: 347px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 16px 0;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    margin: 26px 0 0 0;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+}
+
+.botao2 {
+    background-color: #1A202C;
+    width: 347px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 16px 0;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    margin: 26px 0 0 0;
+    position: absolute;
+    left: 0px;
+    top: 122%;
+}
+
+.botao2 img {
+    position: absolute;
+    left: 35px;
+    top: 14px
+}
+
+.cadastro {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    left: 35px;
+    top: 200%;
+}
+
+.cadastro-cor {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    left: 208px;
+    top: 200%;
+    color: #2B6CB0;
+    cursor: pointer;
+}
+
+.link {
+    position: absolute;
+    left: 122px;
+    top: 155%;
+    background-color: #1A202C;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 16px 10px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+}
+
+@media screen and (max-width: 480px) {
+
+    .input-padrao {
+        padding: 20px;
+        left: 10px;
+    }
+
+    label {
+        margin: 20px 0 0 0;
+    }
+
+    .formulario {
+        width: auto;
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .botao {
+        width: 100%;
+        left: 5%;
+    }
+
+    .botao2 {
+        width: 100%;
+        left: 5%;
+    }
+
+    .troca-senha {
+        width: 170px;
+        left: 300px;
+        top: 92%;
+    }
+
+    .link {
+        left: 43%;
+    }
+
+    .cadastro {
+        left: 110px;
+    }
+
+    .cadastro-cor {
+        width: 150px;
+        left: 280px;
+    }
+    
+}

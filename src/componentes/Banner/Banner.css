@@ -1,0 +1,75 @@
+.banner {
+    position: absolute;
+    width: 100%;
+    height: 378px;
+    left: 0px;
+    top: 119px;
+    background-color: black;
+}
+
+.banner img {
+    width: 100%;
+    height: 378px;
+    object-fit: cover;
+    max-width: 100%;
+    opacity: 0.6;
+}
+
+.titulo {
+    position: absolute;
+    width: 590px;
+    height: 59px;
+    left: 100px;
+    bottom: 250px;
+}
+
+.titulo h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #F9F9F9;
+}
+
+.descricao {
+    position: absolute;
+    width: 637px;
+    height: 76px;
+    left: 100px;
+    bottom: 150px; 
+    
+}
+
+.descricao p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    color: #F9F9F9;
+}
+
+@media screen and (max-width: 480px) {
+
+    .banner{
+        width: auto;
+    }
+
+    .banner img {
+        width: auto;
+    }
+    
+    .titulo h1 {
+        width: auto;
+        font-size: 25px
+    }
+
+    .descricao p{
+        width: auto;
+        font-size: 16px;
+        
+    }
+
+    .titulo, .descricao {
+        width: auto;
+        left: 20px;
+    }
+}
+
