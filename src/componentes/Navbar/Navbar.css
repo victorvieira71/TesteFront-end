@@ -42,4 +42,8 @@
     .desconto p {
         text-align: center;
     }
+    .linkl {
+        top: 16px;
+        left: 85%;
+    }
 }

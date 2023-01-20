@@ -27,11 +27,11 @@
 .produtos {
     position: absolute;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 10px;
-    text-align: center;
     top: 650px;
-    padding: 50px;
+    padding: 100px;
+    left: 135px;
 }
 
 .tenis img {
@@ -55,7 +55,8 @@
         grid-template-columns: auto;
         width: auto;
         padding: 0 20px;
-        top: 724px
+        top: 724px;
+        left:85px;
     }
 
     .tenis {
